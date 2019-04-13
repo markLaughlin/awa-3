@@ -1,0 +1,42 @@
+<!-- Create an app that loads a single random image for a specific breed, based on a user input. 
+  This app should account for the happy case when the breed is found, 
+  as well as the unhappy case when it is not. 
+  Use the endpoint described in the "RANDOM IMAGE FROM A BREED COLLECTION" section of this page of the DogAPI docs. 
+  Note that the API will return an HTTP status code of 404 along with a JSON object with info about the error
+  if a request is made for a breed that can't be found.
+  https://dog.ceo/api/breed/hound/images
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Asynchronous Web Apps Assignment Three</title>
+    <meta name="description" content="An asynchronous web application">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Search For Cute Dogs By Breed!</h1>
+  
+      <form>
+        Enter the name of the breed of dog you wish to find image of. (Example: "hound")<br>
+        <input type="text" class="breed"><br>
+        <input type="submit" class="submission">
+      </form>
+
+      <p></p>
+
+      <div class="container">
+        
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+
+</html>
+

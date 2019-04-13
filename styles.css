@@ -1,0 +1,22 @@
+body {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input {
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.breed{
+    margin: 10px;
+}
+
+.submission{
+    margin-bottom: 10px,
+}
+
+
